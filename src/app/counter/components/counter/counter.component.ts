@@ -16,7 +16,7 @@ import { Component } from "@angular/core";
 })
 
 export class CounterComponent {
-  public title: string = 'Hola Mundo';
+
   public counter: number = 10;
   increseBy(value: number): void {
 
