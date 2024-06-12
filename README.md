@@ -1,4 +1,4 @@
-# Bases
+# 02-Bases Curso Angular de 0 a Experto
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
 

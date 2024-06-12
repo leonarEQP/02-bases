@@ -6,13 +6,11 @@
   </h3>
 </div>
 
-<ng-template #nothingWasDeleted><h3>No ha borrado nada.</h3></ng-template>
+<ng-template #nothingWasDeleted>
+  <h3>No ha borrado nada.</h3>
+</ng-template>
 
-<button
-  *ngIf="heroeNames.length > 0"
-  class="btn btn-danger"
-  (click)="removeLastHeroe()"
->
+<button *ngIf="heroeNames.length > 0" class="btn btn-danger" (click)="removeLastHeroe()">
   Borrar último héroe
 </button>
 

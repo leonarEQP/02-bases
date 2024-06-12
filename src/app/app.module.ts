@@ -7,16 +7,9 @@ import { CounterModule } from './counter/components/counter.module';
 import { HeroesModule } from './heroes/components/heroes.module';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    CounterModule,
-    HeroesModule,
-    AppRoutingModule,
-  ],
+  declarations: [AppComponent],
+  imports: [BrowserModule, CounterModule, HeroesModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
