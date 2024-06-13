@@ -5,11 +5,9 @@ import { MainPageComponent } from './pages/main-page.component';
 import { ListComponent } from './list/list.component';
 import { AddCharacterComponent } from './add-character/add-character.component';
 
-
 @NgModule({
   declarations: [MainPageComponent, ListComponent, AddCharacterComponent],
   exports: [MainPageComponent],
-  imports: [CommonModule,FormsModule],
-
+  imports: [CommonModule, FormsModule],
 })
 export class DbzModule {}
