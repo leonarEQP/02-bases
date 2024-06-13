@@ -12,6 +12,8 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
+Deployed first Project  https://angular-bases-project-leonareqp.netlify.app/
+
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
